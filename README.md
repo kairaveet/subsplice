@@ -1,4 +1,5 @@
-# SPECTRA
+# SPECTRA: : Unsupervised Analysis of Alternative Splicing
+
 
 ## ✂️ About
 
