@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools >= 61.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectra"
+version = "2025.0.0"
+dependencies = [
+  "pandas >= 1.4.3",
+  "scikit-learn >= 1.1.2",
+  "nimfa >= 1.4.0",
+  "numpy >= 1.22.3",
+  "scipy >= 1.10.0",
+  "seaborn >= 0.12.2",
+  "statsmodels >= 0.13.5",
+  "matplotlib >=3.8.3"
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "Kairavee Thakkar", email = "kairavee.thakkar@cchmc.org"},
+  {name = "Nathan Salomonis", email = "nathan.salomonis@cchmc.org"}
+]
+description = "Splicing-based Pattern Extraction and Clustering using TRAnscriptomics"
+readme = file: README.md
+license = "MIT"
+classifiers =
+    Programming Language :: Python :: 3
+    License :: OSI Approved :: MIT License
+    Operating System :: OS Independent
+
+[project.cli]
+spectra-cli = "spectra:cli"
+
+[project.urls]
+Repository = "https://github.com/kairaveet/spectra"
+"Bug Tracker" = "https://github.com/kairaveet/spectra/issues"
