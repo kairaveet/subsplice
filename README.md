@@ -6,6 +6,8 @@
 
 SPECTRA leverages an **iterative clustering strategy** to identify stable and dominant splicing patterns across patient samples. The new implementation enhances the **speed**, **accuracy**, and **modularity**, allowing seamless integration into both command-line workflows and interactive Python environments.
 
+![SPECTRA Workflow](spectra_workflow-01.png)
+
 ## 📌 Installation
 
 Coming soon — instructions for installing SPECTRA as a Python package via `pip`.
