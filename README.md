@@ -18,6 +18,8 @@ Coming soon — instructions for installing SPECTRA as a Python package via `pip
 Detailed documentation, including parameter descriptions, expected input/output formats, and customization options, will be available shortly.
 
 ## 👩‍🏫 Tutorial
+Example datasets: 
+PSI files for each TCGA cancer can be downloaded from [https://www.synapse.org/Synapse:syn64934289](here). 
 
 SPECTRA can be used in two ways:
 - As a **command-line tool** for end-to-end execution
