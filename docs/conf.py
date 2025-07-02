@@ -11,8 +11,8 @@ sys.path.insert(0, os.path.abspath('../spectra'))
 # -- Project information -----------------------------------------------------
 
 project = 'SPECTRA'
-copyright = '2025, Your Name'
-author = 'Your Name'
+copyright = '2025, Kairavee Thakkar'
+author = 'Kairavee Thakkar'
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
