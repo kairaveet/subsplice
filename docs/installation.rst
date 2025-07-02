@@ -10,7 +10,7 @@ Example (to be updated):
 
 .. code-block:: bash
 
-    git clone https://github.com/yourusername/SPECTRA.git
+    git clone https://github.com/kairaveet/SPECTRA.git
     cd SPECTRA
     pip install .
 
