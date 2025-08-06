@@ -1,11 +1,10 @@
 import pandas as pd
-
-from RoundWrapper import *
-from preprocess import *
-from removeRedundantSplicingEvents import *
-from PCAbasedFeatureSelection import *
-from medianImpute import *
-from visualizations import *
+from spectra.round_wrapper import *
+from spectra.preprocess import *
+from spectra.remove_redundancy import *
+from spectra.feature_selection import *
+from spectra.median_impute import *
+from spectra.visualizations import *
 import os
 import argparse
 import time

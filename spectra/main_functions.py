@@ -1,9 +1,9 @@
-from RoundWrapper import *
-from preprocess import *
-from removeRedundantSplicingEvents import *
-from PCAbasedFeatureSelection import *
-from medianImpute import *
-from visualizations import *
+from spectra.round_wrapper import *
+from spectra.preprocess import *
+from spectra.remove_redundancy import *
+from spectra.feature_selection import *
+from spectra.median_impute import *
+from spectra.visualizations import *
 import os
 import argparse
 import time
@@ -12,6 +12,7 @@ import warnings
 
 plt.rcParams['pdf.fonttype'] = 42
 plt.rcParams['font.family'] = 'Arial'
+
 
 def read_psi_file(psi_file_path, n_metadata_cols):
     # read the psi file in and separate out the metadata columns from numeric PSI data
@@ -23,7 +24,7 @@ def read_psi_file(psi_file_path, n_metadata_cols):
     return psi, metadata
 
 
-def oncosplice_feature_selection(psi, metadata,fold_threshold, samples_differing, corr_threshold_intercorr, corr_n_events, corr_threshold, speed, write_files=True, savedir=None):
+def oncosplice_feature_selection(psi, metadata, fold_threshold, samples_differing, corr_threshold_intercorr, corr_n_events, corr_threshold, speed, write_files=True, savedir=None):
     # variance based feature selection
     metadata = variance_based_feature_selection(psi, metadata, fold_threshold=fold_threshold, samples_differing=samples_differing)
 
