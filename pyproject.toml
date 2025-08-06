@@ -2,6 +2,9 @@
 requires = ["setuptools >= 80.9.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+py-modules = []
+
 [project]
 name = "spectra"
 version = "2025.0.0"
@@ -16,22 +19,19 @@ dependencies = [
   "matplotlib==3.10.5",
   "scikit-dimension==0.3.4"
 ]
-requires-python = "3.12"
+requires-python = "==3.12"
 authors = [
   {name = "Kairavee Thakkar", email = "kairavee.thakkar@cchmc.org"},
   {name = "Nathan Salomonis", email = "nathan.salomonis@cchmc.org"}
 ]
 description = "Splicing-based Pattern Extraction and Clustering using TRAnscriptomics"
-readme = file: README.md
+readme = "README.md"
 license = "MIT"
-classifiers =
-    Programming Language :: Python :: 3
-    License :: OSI Approved :: MIT License
-    Operating System :: OS Independent
-
-[project.cli]
-spectra-cli = "spectra:cli"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
 
 [project.urls]
 Repository = "https://github.com/kairaveet/spectra"
-"Bug Tracker" = "https://github.com/kairaveet/spectra/issues"
+Issues = "https://github.com/kairaveet/spectra/issues"
