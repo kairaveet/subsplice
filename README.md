@@ -11,11 +11,15 @@ SPECTRA leverages an **iterative clustering strategy** to identify stable and do
 
 ## 📌 Installation
 
-Coming soon — instructions for installing SPECTRA as a Python package via `pip`.
+SPECTRA can installed as a Python package via `pip`. We recommend using conda environment with python version set to 3.12. 
+
+`pip install -i https://test.pypi.org/simple/ spectra-kairaveet`
+
 
 ## 📚 Documentation
 
-Detailed documentation, including parameter descriptions, expected input/output formats, and customization options, will be available shortly.
+Detailed documentation on how to perform SPECTRA analysis is provided on [https://spectra-kairaveethakkar.readthedocs.io/en/latest/](ReadTheDocs) now.
+
 
 ## 👩‍🏫 Tutorial
 Example datasets: 
