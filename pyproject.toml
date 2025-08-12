@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 py-modules = []
 
 [project]
-name = "spectra"
+name = "splicespectra"
 version = "2025.0.0"
 dependencies = [
   "pandas==2.2.2",
