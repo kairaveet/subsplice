@@ -1,11 +1,11 @@
 import pandas as pd
 import os
-from spectra.determine_rank import *
-from spectra.run_nmf import *
+from .determine_rank import *
+from .run_nmf import *
 import time
-from spectra.metadata_analysis import *
-from spectra.linear_svm import *
-from spectra.correlation_depletion import *
+from .metadata_analysis import *
+from .linear_svm import *
+from .correlation_depletion import *
 from visualizations import *
 
 
