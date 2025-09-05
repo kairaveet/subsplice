@@ -6,7 +6,7 @@ import time
 from .metadata_analysis import *
 from .linear_svm import *
 from .correlation_depletion import *
-from visualizations import *
+from .visualizations import *
 
 
 def round_wrapper(filename, full_psi_file, full_imputed_psi_file, highly_variable_events, metadata, rank=None, min_group_size=5,
