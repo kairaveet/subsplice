@@ -13,17 +13,17 @@ SPECTRA leverages an **iterative clustering strategy** to identify stable and do
 
 SPECTRA can installed as a Python package via `pip`. We recommend using conda environment with python version set to 3.12. 
 
-`pip install -i https://test.pypi.org/simple/ spectra-kairaveet`
+`pip3 install splicespectrax==2025.0.3`
 
 
 ## 📚 Documentation
 
-Detailed documentation on how to perform SPECTRA analysis is provided on [https://spectra-kairaveethakkar.readthedocs.io/en/latest/](ReadTheDocs) now.
+Detailed documentation on how to perform SPECTRA analysis is provided on [ReadTheDocs](https://spectra-kairaveethakkar.readthedocs.io/en/latest/) now.
 
 
 ## 👩‍🏫 Tutorial
 Example datasets: 
-PSI files for each TCGA cancer can be downloaded from [https://www.synapse.org/Synapse:syn64934289](here). 
+PSI files for each TCGA cancer can be downloaded from [here](https://www.synapse.org/Synapse:syn64934289). 
 
 SPECTRA can be used in two ways:
 - As a **command-line tool** for end-to-end execution

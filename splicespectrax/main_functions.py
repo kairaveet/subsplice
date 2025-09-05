@@ -1,9 +1,9 @@
-from spectra.round_wrapper import *
-from spectra.preprocess import *
-from spectra.remove_redundancy import *
-from spectra.feature_selection import *
-from spectra.median_impute import *
-from spectra.visualizations import *
+from .round_wrapper import *
+from .preprocess import *
+from .remove_redundancy import *
+from .feature_selection import *
+from .median_impute import *
+from .visualizations import *
 import os
 import argparse
 import time
