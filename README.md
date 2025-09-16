@@ -31,11 +31,11 @@ SubSplice can be used in two ways:
 
 See the tutorials and example scripts for each approach:
 
-### 🔹 Command-Line Interface (CLI)
+### Command-Line Interface (CLI)
 
 Run the entire pipeline with a single command using `main.py`. This is ideal for multiple dataset processing and automated workflows.
 
-### 🔹 Modular Usage
+### Modular Usage
 
 Import and run individual components such as preprocessing, clustering, or visualization in a custom step-by-step analysis.
 
