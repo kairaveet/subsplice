@@ -18,7 +18,7 @@ SubSplice leverages an **iterative clustering strategy** to identify stable and 
 
 ## 🔹 Documentation
 
-Detailed documentation and tutorials on how to perform SubSplice analysis is provided on [ReadTheDocs](https://subsplice-kairaveethakkar.readthedocs.io/en/latest/) now.
+Detailed documentation and tutorials on how to perform SubSplice analysis is provided on [ReadTheDocs](https://spectra-kairaveethakkar.readthedocs.io/en/latest/) now.
 
 
 ## 🔹 Tutorial
