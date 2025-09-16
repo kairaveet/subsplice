@@ -1,19 +1,19 @@
-# SPECTRA: Unsupervised Analysis of Alternative Splicing
+# SubSplice: Subtype discovery Using Splicing
 
 
 ## ✂️ About
 
-**SPECTRA** (Splicing-based Pattern Extraction and Clustering using TRAnscriptomics) is an end-to-end pipeline for discovering patient subtypes based on alternative splicing. It is a modernized and optimized version of the original OncoSplice algorithm.
+**SubSplice** (Subtype discovery Using Splicing) is an end-to-end pipeline for discovering patient subtypes based on alternative splicing. It is a modernized and optimized version of the original [OncoSplice algorithm](https://pubmed.ncbi.nlm.nih.gov/40333990/).
 
-SPECTRA leverages an **iterative clustering strategy** to identify stable and dominant splicing patterns across patient samples. The new implementation enhances the **speed**, **accuracy**, and **modularity**, allowing seamless integration into both command-line workflows and interactive Python environments.
+SubSplice leverages an **iterative clustering strategy** to identify stable and dominant splicing patterns across patient samples. The new implementation enhances the **speed**, **accuracy**, and **modularity**, allowing seamless integration into both command-line workflows and interactive Python environments.
 
-![SPECTRA Workflow](spectra_workflow-01.png)
+![SubSplice Workflow](subsplice_workflow.png)
 
 ## 📌 Installation
 
-SPECTRA can installed as a Python package via `pip`. We recommend using conda environment with python version set to 3.12. 
+[SubSplice](https://pypi.org/project/subsplice/) can installed as a Python package via `pip`. We recommend using conda environment with python version set to 3.12. 
 
-`pip3 install splicespectrax`
+`pip install subsplice`
 
 
 ## 📚 Documentation
