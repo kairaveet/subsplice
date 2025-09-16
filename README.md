@@ -18,14 +18,14 @@ SPECTRA can installed as a Python package via `pip`. We recommend using conda en
 
 ## 📚 Documentation
 
-Detailed documentation and tutorials on how to perform SPECTRA analysis is provided on [ReadTheDocs](https://spectra-kairaveethakkar.readthedocs.io/en/latest/) now.
+Detailed documentation and tutorials on how to perform SubSplice analysis is provided on [ReadTheDocs](https://spectra-kairaveethakkar.readthedocs.io/en/latest/) now.
 
 
 ## 👩‍🏫 Tutorial
 Example datasets: 
 PSI files for each TCGA cancer can be downloaded from [here](https://www.synapse.org/Synapse:syn64934289). 
 
-SPECTRA can be used in two ways:
+SubSplice can be used in two ways:
 - As a **command-line tool** for end-to-end execution
 - As a **modular workflow**, where individual functions are called step-by-step. See the tutorial [here](https://spectra-kairaveethakkar.readthedocs.io/en/latest/starting_with_psi.html).
 
