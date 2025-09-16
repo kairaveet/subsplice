@@ -18,7 +18,7 @@ SubSplice leverages an **iterative clustering strategy** to identify stable and 
 
 ## 🔹 Documentation
 
-Detailed documentation and tutorials on how to perform SubSplice analysis is provided on [ReadTheDocs](https://spectra-kairaveethakkar.readthedocs.io/en/latest/) now.
+Detailed documentation and tutorials on how to perform SubSplice analysis is provided on [ReadTheDocs](https://subsplice-kairaveethakkar.readthedocs.io/en/latest/) now.
 
 
 ## 🔹 Tutorial
@@ -27,7 +27,7 @@ PSI files for each TCGA cancer can be downloaded from [here](https://www.synapse
 
 SubSplice can be used in two ways:
 - As a **command-line tool** for end-to-end execution
-- As a **modular workflow**, where individual functions are called step-by-step. See the tutorial [here](https://spectra-kairaveethakkar.readthedocs.io/en/latest/starting_with_psi.html).
+- As a **modular workflow**, where individual functions are called step-by-step. See the tutorial [here](https://subsplice-kairaveethakkar.readthedocs.io/en/latest/starting_with_psi.html).
 
 See the tutorials and example scripts for each approach:
 
