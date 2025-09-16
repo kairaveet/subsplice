@@ -2,9 +2,9 @@
 Tutorial: Starting with PSI Matrices
 ===============================
 
-This tutorial demonstrates how to use **splicespectrax** to perform feature selection
+This tutorial demonstrates how to use **subsplice** to perform feature selection
 and clustering of splicing events. We will start from a PSI (Percent Spliced In) file (in form of a text file or a matrix in a h5ad slot),
-select variable features, and then perform clustering using OncoSplice.
+select variable features, and then perform clustering to find the splicing subtypes (clusters comprised of samples).
 
 Installation
 ------------
@@ -14,14 +14,14 @@ We recommend creating a fresh conda environment with Python **3.11** or higher
 
 .. code-block:: bash
 
-   conda create -n splicespectrax-env python=3.11
-   conda activate splicespectrax-env
+   conda create -n subsplice-env python=3.11
+   conda activate subsplice-env
 
-Then install the latest version of ``splicespectrax`` using ``pip``:
+Then install the latest version of ``subsplice`` using ``pip``:
 
 .. code-block:: bash
 
-   pip install splicespectrax
+   pip install subsplice
 
 
 Test the Installation
@@ -31,14 +31,14 @@ After installation, open Python and check that the package imports correctly:
 
 .. code-block:: python
 
-   import splicespectrax as ss
+   import subsplice as ss
    print(ss.__version__)
 
 You should see:
 
 .. code-block::
 
-   2025.0.6
+   0.0.0
 
 If you see this version number without errors, you are ready to continue.
 
@@ -50,14 +50,14 @@ First, import the package:
 
 .. code-block:: python
 
-   import splicespectrax as ss
+   import subsplice as ss
 
 
 Step 2: Load a PSI file
 -----------------------
 
 Provide the path to your PSI file and load it with
-:func:`splicespectrax.read_psi_file`:
+:func:`subsplice.read_psi_file`:
 
 .. code-block:: python
 
@@ -70,11 +70,11 @@ Step 3: Feature Selection
 -------------------------
 
 Select variable features from the PSI matrix using
-:func:`splicespectrax.oncosplice_feature_selection`:
+:func:`subsplice.find_variable_features`:
 
 .. code-block:: python
 
-   variable_features, psi, metadata = ss.oncosplice_feature_selection(
+   variable_features, psi, metadata = ss.find_variable_features(
        psi, metadata,
        fold_threshold=0.2,
        samples_differing=4,
@@ -90,11 +90,11 @@ Select variable features from the PSI matrix using
 Step 4: Run OncoSplice
 ----------------------
 
-Finally, perform clustering with :func:`splicespectrax.oncosplice`:
+Finally, perform clustering with :func:`subsplice.find_subtypes`:
 
 .. code-block:: python
 
-   final_clusters, de_results = ss.oncosplice(
+   final_clusters, de_results = ss.find_subtypes(
        psi=psi,
        metadata=metadata,
        variable_features=variable_features,

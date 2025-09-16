@@ -5,15 +5,15 @@ import sys
 
 # -- Path setup --------------------------------------------------------------
 
-# Add the src/ directory to sys.path for autodoc to find 'spectra'
-sys.path.insert(0, os.path.abspath('../spectra'))
+# Add the src/ directory to sys.path for autodoc to find 'subsplice'
+sys.path.insert(0, os.path.abspath('../subsplice'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'SPECTRA'
+project = 'SubSplice'
 copyright = '2025, Kairavee Thakkar'
 author = 'Kairavee Thakkar'
-release = '0.1.0'
+release = '0.0.0'
 
 # -- General configuration ---------------------------------------------------
 

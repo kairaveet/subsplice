@@ -2,16 +2,14 @@
 Installation
 =======================
 
-This section is under active development.
-
-SPECTRA will be installable via `pip` once published to PyPI. Until then, you can install it locally from your GitHub repository.
-
-Example (to be updated):
+SubSplice can be installable via `pip` in a conda environment and is published to PyPI.
 
 .. code-block:: bash
 
-    git clone https://github.com/kairaveet/SPECTRA.git
-    cd SPECTRA
-    pip install .
+   conda create -n subsplice-env python=3.11
+   conda activate subsplice-env
+   pip install subsplice
 
-Dependencies and detailed instructions will be provided here.
+
+The following are the required package versions and dependencies:
+
