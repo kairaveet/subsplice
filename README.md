@@ -1,7 +1,7 @@
 # SubSplice: Subtype discovery Using Splicing
 
 
-## About
+## 🔹 About
 
 **SubSplice** (Subtype discovery Using Splicing) is an end-to-end pipeline for discovering patient subtypes based on alternative splicing. It is a modernized and optimized version of the original [OncoSplice algorithm](https://pubmed.ncbi.nlm.nih.gov/40333990/).
 
@@ -9,19 +9,19 @@ SubSplice leverages an **iterative clustering strategy** to identify stable and 
 
 ![SubSplice Workflow](subsplice_workflow.png)
 
-## Installation
+## 🔹 Installation
 
 [SubSplice](https://pypi.org/project/subsplice/) can installed as a Python package via `pip`. We recommend using conda environment with python version set to 3.12. 
 
 `pip install subsplice`
 
 
-## Documentation
+## 🔹 Documentation
 
 Detailed documentation and tutorials on how to perform SubSplice analysis is provided on [ReadTheDocs](https://spectra-kairaveethakkar.readthedocs.io/en/latest/) now.
 
 
-## Tutorial
+## 🔹 Tutorial
 Example datasets: 
 PSI files for each TCGA cancer can be downloaded from [here](https://www.synapse.org/Synapse:syn64934289). 
 
@@ -31,15 +31,15 @@ SubSplice can be used in two ways:
 
 See the tutorials and example scripts for each approach:
 
-### Command-Line Interface (CLI)
+### 🔹 Command-Line Interface (CLI)
 
 Run the entire pipeline with a single command using `main.py`. This is ideal for multiple dataset processing and automated workflows.
 
-### Modular Usage
+### 🔹 Modular Usage
 
 Import and run individual components such as preprocessing, clustering, or visualization in a custom step-by-step analysis.
 
-## 📝 Overview of Modules
+## 🔹 Overview of Modules
 
 | Module | Description |
 |--------|-------------|
